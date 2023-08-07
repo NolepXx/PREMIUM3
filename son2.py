@@ -915,7 +915,6 @@ def crack(idf,pwv):
 	sys.stdout.write(f"\r🔥 {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
@@ -982,7 +981,6 @@ def crackfree(idf,pwv):
 	sys.stdout.write(f"\r💐 {P}[{bo}Mbasic{P}]{P}[{b}{loop}{P}/{p}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{m}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
@@ -1065,7 +1063,6 @@ def cracktouch(idf,pwv):
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
@@ -1148,7 +1145,6 @@ def crackmbasic(idf,pwv):
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
