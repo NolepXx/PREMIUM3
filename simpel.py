@@ -370,7 +370,7 @@ def result():
 	print(f'{P}─────────────────────────────────────────────────────')
 	print(f'┌─[{H}1{P}] Hasil {h}OK{P} Anda ')
 	print(f'├─[{K}2{P}] Hasil {k}CP{P} Anda ')
-	#print(f'├─[{M}3{P}] Kembali	')
+	print(f'├─[{M}3{P}] Kembali	')
 	kz = input(f'└───➢ ')
 	print(f'{P}─────────────────────────────────────────────────────')
 	if kz in ['2']:
@@ -550,16 +550,16 @@ def setting():
 		method.append('dua')
 	else:
 		method.append('satu')
-	#print(f'{P}─────────────────────────────────────────────────────')
-	#pwplus=input(f'{P}┌─[{H}•{P}] Tambahkan Password Manual ( Y/t ) : ')
-	#if pwplus in ['y','Y']:
-		#pwpluss.append('ya')
-		#pwku=input(f'{P}└───➢ ')
-		#pwkuh=pwku.split(',')
-		#for xpw in pwkuh:
-			#pwnya.append(xpw)
-	#else:
-		#pwpluss.append('no')
+	print(f'{P}─────────────────────────────────────────────────────')
+	pwplus=input(f'{P}┌─[{H}•{P}] Tambahkan Password Manual ( Y/t ) : ')
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		pwku=input(f'{P}└───➢ ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
 	passwrd()
 
 def passwrd():
