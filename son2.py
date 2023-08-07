@@ -34,6 +34,7 @@ pretty.install()
 CON=sol()
 ugen2=[]
 ugen=[]
+uaku2=[]
 cokbrut=[]
 ses=requests.Session()
 princp=[]
