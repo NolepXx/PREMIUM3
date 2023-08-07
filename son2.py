@@ -196,7 +196,93 @@ for xd in range(10000):
 	l='Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/353.0.0.5.112;FBDM/DisplayMetrics'+'{density=1.75, width=720, height=1473, scaledDensity=1.75, xdpi=268.941, ydpi=269.139};]'
 	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
 	ugen.append(uaku2)
+	aa='Mozilla/5.0 (Linux; U; Android '
+	b=random.choice(['4.3','5.0','7.0','8.1.0','9','10','11','12','13'])
+	c='en-us; ASUS_T00F Build/'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/534.30 (KHTML, like Gecko) '
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Version/4.0 Mobile Safari/534.30 Mobile UCBrowser/3.4.1.483'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
 	
+	aa='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['Oppo A4 Build/MMB29M; wv)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
+	
+	aa='Mozilla/5.0 (X11'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['Linux x86_64)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Safari/537.36'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
+	om.choice(['6','7','8','9','10','11','12'])
+	c='9; CPH1825)P259E)'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.77.0.4152.48.4264.57'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
+	
+	aa='Mozilla/5.0 (Linux; Android ;'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c='CPH1825)'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.4152.48'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
+	
+	aa='Mozilla/5.0 (Linux; Android ;'
+	b=random.choice(['7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['SM-J120H Build/PKQ1.130176.001; wv)'])
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.5510.79'
+	h=random.randrange(80,103)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
+	ugen.append(uaku2)
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S'
 	b=random.randrange(100, 9999)
@@ -210,7 +296,8 @@ for x in range(10):
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
 	l='Mobile WVGA SMM-MMS/1.2.0 OPN-B'
-	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+	uaku2=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
+	ugen.append(uaku2)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
