@@ -154,7 +154,9 @@ for xd in range(10000):
 	i='Mobile Safari/537.36'
 	uaku=(f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}')
 	ugen.append(uaku)
-	om.choice(['6','7','8','9','10','11','12'])
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['6','7','8','9','10','11','12'])
 	c='Redmi 5 Plus Build/OPM1.171019.019; wv) '
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
