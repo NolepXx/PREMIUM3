@@ -697,7 +697,7 @@ def banner():
 {__   {__  {__     {_   {__  {__     {__ {__   {__    {__     {__ 
 {__     {__{__      {____      {____     {__     {__    {____     
                                                                   
-			width=80,padding=(0,8),style=f"{color_table}"))
+			width=80,padding=(0,8),style=f"{color_table}"""))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
