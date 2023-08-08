@@ -687,8 +687,7 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	clear()
-	alvino_xy(f'''\t{asu}                                               
+	prints(Panel(f"""{asu}                                           
 	
 {__   {__  {__          {__    {____     {__   {__      {____     
 {__  {__   {__          {__  {__    {__  {__  {__     {__    {__  
@@ -698,7 +697,7 @@ def banner():
 {__   {__  {__     {_   {__  {__     {__ {__   {__    {__     {__ 
 {__     {__{__      {____      {____     {__     {__    {____     
                                                                   
-			{m} ☯︎ {k} ☯︎ {h} ☯︎ {sir} Recode : ZUCKERBERG_XD{x}{m} ☯︎ {k} ☯︎ {h} ☯︎ {x}''')
+			width=80,padding=(0,8),style=f"{color_table}"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
