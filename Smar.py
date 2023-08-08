@@ -687,7 +687,8 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	print(f'''{asu}                                           
+	clear()
+	alvino_xy(f'''\t{asu}                                           
 	
 {__   {__  {__          {__    {____     {__   {__      {____     
 {__  {__   {__          {__  {__    {__  {__  {__     {__    {__  
@@ -697,7 +698,7 @@ def banner():
 {__   {__  {__     {_   {__  {__     {__ {__   {__    {__     {__ 
 {__     {__{__      {____      {____     {__     {__    {____     
                                                                   
-			width=80,padding=(0,8),style=f"{color_table}''')
+	{m} ☯︎ {k} ☯︎ {h} ☯︎ {sir} Recode : NolepXxx{x}{m} ☯︎ {k} ☯︎ {h} ☯︎ {x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
