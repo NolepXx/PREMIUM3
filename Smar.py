@@ -699,7 +699,7 @@ def banner():
 {__     {__{__      {____      {____     {__     {__    {____     
                                                                   
 	{m}•{k}•{h}•{sir} Author : NOLEPXXX{x}{m}•{k}•{h}•{x}
- ''')
+ '''))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
